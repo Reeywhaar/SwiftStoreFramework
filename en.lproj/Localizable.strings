@@ -1,0 +1,27 @@
+/* No comment provided by engineer. */
+"IAPManager.ALREADY_IN_PROGRESS" = "Action already in progress";
+
+/* No comment provided by engineer. */
+"IAPManager.NOT_AUTHORIZED_FOR_PAYMENT" = "Not authorized for payment";
+
+/* No comment provided by engineer. */
+"IAPManager.PURCHASE_FAILED" = "Purchase failed";
+
+/* No comment provided by engineer. */
+"IAPPurchaseManager.INVALID_IDENTIFIER" = "Invalid identifier";
+
+/* No comment provided by engineer. */
+"ReceiptManager.DATA_EMPTY" = "Data is empty";
+
+/* No comment provided by engineer. */
+"ReceiptManager.RECEIPT_URL_EMPTY" = "Receipt URL is empty";
+
+/* No comment provided by engineer. */
+"ReceiptManager.REQUEST_NOT_VALID_JSON" = "Request is not valid JSON";
+
+/* No comment provided by engineer. */
+"ReceiptManager.SANDBOX_ENVIRONMENT" = "Request should be made in sandbox environment";
+
+/* No comment provided by engineer. */
+"ReceiptManager.VALIDATION_URL_CREATION_FAIL" = "Can't create verification URL";
+

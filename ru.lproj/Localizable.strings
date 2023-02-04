@@ -1,0 +1,27 @@
+/* No comment provided by engineer. */
+"IAPManager.ALREADY_IN_PROGRESS" = "Действие уже в процессе";
+
+/* No comment provided by engineer. */
+"IAPManager.NOT_AUTHORIZED_FOR_PAYMENT" = "Нет разрешения на покупки";
+
+/* No comment provided by engineer. */
+"IAPManager.PURCHASE_FAILED" = "Покупка не удалась";
+
+/* No comment provided by engineer. */
+"IAPPurchaseManager.INVALID_IDENTIFIER" = "Неправильный идентификатор";
+
+/* No comment provided by engineer. */
+"ReceiptManager.DATA_EMPTY" = "Данные пусты";
+
+/* No comment provided by engineer. */
+"ReceiptManager.RECEIPT_URL_EMPTY" = "Ссылка на чек пуста";
+
+/* No comment provided by engineer. */
+"ReceiptManager.REQUEST_NOT_VALID_JSON" = "Запрос не является правильным JSON";
+
+/* No comment provided by engineer. */
+"ReceiptManager.SANDBOX_ENVIRONMENT" = "Запрос должен быть сделан из тестового окружения";
+
+/* No comment provided by engineer. */
+"ReceiptManager.VALIDATION_URL_CREATION_FAIL" = "Не удалось создать ссылку на верификацию";
+
