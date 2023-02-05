@@ -7,6 +7,7 @@
 
 import Foundation
 import StoreKit
+import Combine
 
 public enum IAPPurchaseState {
     case loading

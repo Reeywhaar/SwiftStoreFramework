@@ -8,6 +8,7 @@
 import Foundation
 import StoreKit
 import OSLog
+import Combine
 
 public class ReceiptManager: NSObject {
     private let secret: String

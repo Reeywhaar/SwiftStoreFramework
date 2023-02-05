@@ -8,6 +8,7 @@
 import Foundation
 import StoreKit
 import OSLog
+import Combine
 
 public class IAPRestoreManager: NSObject, SKPaymentTransactionObserver {
     private let logger = Logger(subsystem: Bundle.main.bundleIdentifier ?? "", category: String(describing: IAPRestoreManager.self))

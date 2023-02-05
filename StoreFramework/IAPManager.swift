@@ -8,6 +8,7 @@
 import Foundation
 import StoreKit
 import os
+import Combine
 
 public typealias IAPProductIdentifier = String
 

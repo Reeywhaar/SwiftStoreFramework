@@ -8,6 +8,7 @@
 import Foundation
 import StoreKit
 import OSLog
+import Combine
 
 public class IAPPurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransactionObserver {
     private let logger = Logger(subsystem: Bundle.main.bundleIdentifier ?? "", category: String(describing: IAPPurchaseManager.self))
