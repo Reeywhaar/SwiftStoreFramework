@@ -1,9 +1,25 @@
 #!/bin/bash
 
+set -e
+
 NAME=StoreFramework
 
-xcodebuild archive -project ./${NAME}.xcodeproj -scheme ${NAME} -arch arm64 -configuration Release SKIP_INSTALL=NO -sdk "iphoneos" BUILD_LIBRARY_FOR_DISTRIBUTION=YES OTHERCFLAGS="-fembed-bitcode" -archivePath ./archives/ios.xcarchive 
-xcodebuild archive -project ./${NAME}.xcodeproj -scheme ${NAME} -arch arm64 -configuration Release SKIP_INSTALL=NO -sdk iphonesimulator BUILD_LIBRARY_FOR_DISTRIBUTION=YES OTHERCFLAGS="-fembed-bitcode" -archivePath ./archives/sim64.xcarchive
+xcodebuild archive \
+  -project ./${NAME}.xcodeproj \
+  -scheme ${NAME} \
+  -archivePath ./archives/ios.xcarchive  \
+  -sdk iphoneos \
+  BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
+  SKIP_INSTALL=NO
+
+xcodebuild archive \
+  ONLY_ACTIVE_ARCH=NO \
+  -project ./${NAME}.xcodeproj \
+  -scheme ${NAME} \
+  -archivePath ./archives/sim64.xcarchive \
+  -sdk iphonesimulator \
+  BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
+  SKIP_INSTALL=NO
 
 rm -rf ./archives/${NAME}.xcframework || true
 
